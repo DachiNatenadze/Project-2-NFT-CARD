@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: Outfit;
+  background-color: #2e405a;
+}
+
+.main {
+  width: 350px;
+  background-color: #15263f;
+  border-radius: 15px;
+  padding: 24px 24px 32px;
+}
+
+.main img {
+  width: 100%;
+  margin: 0 0 24px;
+  border-radius: 8px;
+  margin: 0 0 24px;
+}
+
+.main h1 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0px 0 16px;
+}
+
+.main p {
+  text-align: left;
+  color: #8bacd9;
+  margin: 16px 0 24px;
+  font-size: 18px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info .eth,
+.info .time {
+  display: flex;
+  align-items: center;
+}
+
+.info .eth img {
+  width: 15px;
+  padding: 2px 5px 0 0;
+  margin-bottom: 2.5px;
+}
+.info .time img {
+  width: 22px;
+  padding: 2px 5px 0 0;
+  margin-bottom: 2.5px;
+}
+
+.info p {
+  font-size: 16px;
+  text-align: left;
+  color: #00fff8;
+  margin: 0;
+}
+.time p {
+  font-size: 16px;
+  text-align: left;
+  color: #8bacd9;
+}
+.div {
+  width: 302px;
+  height: 1px;
+  margin: 24px 0 16px;
+  background-color: #2e405a;
+}
+
+.faceinfo {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+}
+
+.faceinfo img {
+  width: 33px;
+  height: 33px;
+  margin: 0 10px 0 0;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.faceinfo span {
+  font-size: 16px;
+  text-align: left;
+  margin: 0 5px 0 0;
+  color: #8bacd9;
+}
+.faceinfo p {
+  text-align: left;
+  color: #fff;
+  font-size: 16px;
+  margin: 0 0 0 5px;
+}
